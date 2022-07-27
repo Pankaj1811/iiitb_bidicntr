@@ -1,8 +1,8 @@
 `timescale 1ns/1ps
-module updown_tb;
+module iiitb_bidcntr_tb;
 	reg clk,ctrl,reset;
 	wire [3:0] count;
-	updown counter(.clk(clk),.reset(reset),.ctrl(ctrl),.count(count));
+	iiitb_bidicntr counter(.clk(clk),.reset(reset),.ctrl(ctrl),.count(count));
 	always  #1 clk=~clk;
 	
 
