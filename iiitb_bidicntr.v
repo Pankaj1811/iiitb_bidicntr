@@ -1,4 +1,4 @@
-module updown(count,clk,ctrl,reset);
+module iiitb_bidicntr(count,clk,ctrl,reset);
 	input clk,reset,ctrl;
 	output reg [3:0] count;
 	always@(posedge clk or posedge reset)
