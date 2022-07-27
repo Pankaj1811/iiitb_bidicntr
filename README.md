@@ -2,7 +2,7 @@
 //Functional Simulation
 sudo apt install -y git
 git clone https://github.com/Pankaj1811/iiitb_bidicntr
-cd avsdbgp_3v3/Simulation
+cd avsdbgp_3v3/Simulation/Ng_spice_Simulation/Final_simulation/Prelayout
 
 //To clone the repository and download the netlist files for simulation, enter the following commands in your terminal
 git clone https://github.com/Pankaj1811/iiitb_bidicntr
