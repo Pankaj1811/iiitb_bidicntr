@@ -1,2 +1,2 @@
-# iiitb_bidicntr
+# iiitb_bidicntr-bidirectional counter
 Bidirectional Counter
