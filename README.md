@@ -1,4 +1,7 @@
 # iiitb_bidicntr-bidirectional counter
+In this project Bidirectional counter is made that can be used to count either in one direction or both direction.
+
+
 //Functional Simulation
 sudo apt install -y git
 git clone https://github.com/Pankaj1811/iiitb_bidicntr
