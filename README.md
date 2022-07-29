@@ -1,5 +1,6 @@
-# iiitb_bidicntr-bidirectional counter
+##iiitb_bidicntr-bidirectional counter
 In this project Bidirectional counter is made that can be used to count either in one direction or both direction.
+
 Note: Circuit requires further optimization to improve performance. Design yet to be modified.
 
 // Functional Simulation
