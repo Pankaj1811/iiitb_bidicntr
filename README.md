@@ -1,5 +1,9 @@
-##iiitb_bidicntr-bidirectional counter
-In this project Bidirectional counter is made that can be used to count either in one direction or both direction.
+# iiitb_bidicntr- Bidirectional Counter
+
+## Description
+
+Both Synchronous and Asynchronous counters are capable of counting “Up” or counting “Down”, but their is another more “Universal” type of counter that can count in both directions either Up or Down depending on the state of their input control pin and these are known as Bidirectional Counters.
+Bidirectional counters, also known as Up/Down counters, are capable of counting in either direction through any given count sequence and they can be reversed at any point within their count sequence by using an additional control input as shown below.
 
 Note: Circuit requires further optimization to improve performance. Design yet to be modified.
 
