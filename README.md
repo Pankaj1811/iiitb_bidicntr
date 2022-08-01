@@ -5,16 +5,29 @@
 Both Synchronous and Asynchronous counters are capable of counting “Up” or counting “Down”, but their is another more “Universal” type of counter that can count in both directions either Up or Down depending on the state of their input control pin and these are known as Bidirectional Counters.
 Bidirectional counters, also known as Up/Down counters, are capable of counting in either direction through any given count sequence and they can be reversed at any point within their count sequence by using an additional control input as shown below.
 
-Note: Circuit requires further optimization to improve performance. Design yet to be modified.
+## About iverilog 
+Icarus Verilog is an implementation of the Verilog hardware description language.
+## About GTKWave
+GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing
 
-// Functional Simulation
-sudo apt install -y git
-git clone https://github.com/Pankaj1811/iiitb_bidicntr
-cd avsdbgp_3v3/Simulation/Ng_spice_Simulation/Final_simulation/Prelayout
+### Installing iverilog and GTKWave
 
-//To clone the repository and download the netlist files for simulation, enter the following commands in your terminal
-git clone https://github.com/Pankaj1811/iiitb_bidicntr
-cd iiitb_bidicntr
-iverilog iiitb_bidicntr_tb.v iiitb_bidicntr.v
-./a.out
-gtkwave updown.vcd
+#### For Ubuntu
+
+Open your terminal and type the following to install iverilog and GTKWave
+```
+$   sudo apt get update
+$   sudo apt get install iverilog gtkwave
+```
+
+
+### Functional Simulation
+To clone the Repository and download the Netlist files for Simulation, enter the following commands in your terminal.
+```
+$   sudo apt install -y git
+$   git clone https://github.com/sanampudig/iiitb_pwm_gen
+$   cd iiitb_pwm_gen
+$   iverilog iiitb_pwm_gen.v iiitb_pwm_gen_tb.v
+$   ./a.out
+$   gtkwave pwm.vcd
+```
