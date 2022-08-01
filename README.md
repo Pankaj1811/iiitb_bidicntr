@@ -31,3 +31,31 @@ $   iverilog iiitb_bidicntr.v iiitb_bidicntr_tb.v
 $   ./a.out
 $   gtkwave updown.vcd
 ```
+## Contributors
+
+- **Pankaj Agrawal**
+- **Kunal Ghosh**
+
+
+## Acknowledgments
+
+
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Madhav Rao, Associate Professor, IIIT Bangalore
+- V N Muralidhara, Associate Professor, IIIT Bangalore
+
+
+## Contact Information
+
+- Pankaj Agrawal, Postgraduate Student, International Institute of Information Technology, Bangalore  1811pankajagrawal@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+
+## *References*
+[^1]: Varun Akula, Dr. Vishwani D. Agrawal, James J. Danaher. [Comparison of power consumption of 4-bit binary counters with various state encodings including gray and one-hot codes](https://www.eng.auburn.edu/~vagrawal/COURSE/E6270_Spr15/PROJECT/REPORTS/Varun%20Akula%20Project%20Report.pdf). Auburn University
+
+[^2]: [8-bit Gray Counter](https://www.intel.com/content/www/us/en/support/programmable/support-resources/design-examples/horizontal/ver-gray-counter.html) from INTEL FPGA Support Resources for the verilog design of gray counter.
+
+[^3]: Icarus Verilog - [iverilog](http://iverilog.icarus.com/)
+
+[^4]: GTK Wave [documentation](http://gtkwave.sourceforge.net/gtkwave.pdf)
