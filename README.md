@@ -21,9 +21,9 @@ The digital circuit takes clock, ctrl and reset as input. It operates as  8-bit 
 | PORT NAME | PORT TYPE | DESCRIPTION |
 |-----------|-----------|-------------|
 | clk       | input     | Clock Input |
-| enable | input | Enables the counter to count on positive clk edge |
+| ctrl | input | to specify whether up or down counter |
 | reset | input | Resets the counter to 0 |
-| gray_count[7:0] | output | 8-bit gray code output |
+| count[7:0] | output | 8-bit counter output |
 
 ## About iverilog 
 Icarus Verilog is an implementation of the Verilog hardware description language.
