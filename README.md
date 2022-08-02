@@ -5,6 +5,13 @@
 Both Synchronous and Asynchronous counters are capable of counting “Up” or counting “Down”, but their is another more “Universal” type of counter that can count in both directions either Up or Down depending on the state of their input control pin and these are known as Bidirectional Counters.
 Bidirectional counters, also known as Up/Down counters, are capable of counting in either direction through any given count sequence and they can be reversed at any point within their count sequence by using an additional control input as shown below.
 
+## Application of Bidirectional Counter
+
+Bidirectional counter has various applications
+- *Up Counter*
+- *Down Counter*
+- *Bidirectional Counter*
+
 ## About iverilog 
 Icarus Verilog is an implementation of the Verilog hardware description language.
 ## About GTKWave
@@ -36,6 +43,7 @@ $   gtkwave updown.vcd
 
 - **Pankaj Agrawal**
 - **Kunal Ghosh**
+- **Tejas B N**
 
 
 ## Acknowledgments
@@ -50,7 +58,7 @@ $   gtkwave updown.vcd
 
 - Pankaj Agrawal, Postgraduate Student, International Institute of Information Technology, Bangalore  1811pankajagrawal@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
-
+- Tejas B N, Postgraduate Student, International Institute of Information Technology, Bangalore  bntejas@gmail.com
 
 ## *References*
 [^1]: Varun Akula, Dr. Vishwani D. Agrawal, James J. Danaher. [Comparison of power consumption of 4-bit binary counters with various state encodings including gray and one-hot codes](https://www.eng.auburn.edu/~vagrawal/COURSE/E6270_Spr15/PROJECT/REPORTS/Varun%20Akula%20Project%20Report.pdf). Auburn University
