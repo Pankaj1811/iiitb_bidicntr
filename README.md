@@ -14,7 +14,7 @@ Bidirectional counter has various applications
 - *Down Counter*
 - *Bidirectional Counter*
 
-## Gray Code Counter - Verilog Implementation 
+## Bidirectional Counter - Verilog Implementation 
 The digital circuit takes clock, ctrl and reset as input. It operates as  8-bit up cpunter when ctrl=1 and as  8-bit down cpunter when ctrl=0. The port description of the Bidirectional counter is shown in Table below. 
 
 
