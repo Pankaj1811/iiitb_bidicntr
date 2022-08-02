@@ -12,7 +12,7 @@ Bidirectional counters, also known as Up/Down counters, are capable of counting 
 Bidirectional counter has various applications
 - *Up Counter*
 - *Down Counter*
-- *Bidirectional Counter*
+- *Analog to Digital converter*
 
 ## Bidirectional Counter - Verilog Implementation 
 The digital circuit takes clock, ctrl and reset as input. It operates as  8-bit up counter when ctrl=1 and as  8-bit down cpunter when ctrl=0. The port description of the Bidirectional counter is shown in Table below. 
