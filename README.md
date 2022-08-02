@@ -15,7 +15,7 @@ Bidirectional counter has various applications
 - *Bidirectional Counter*
 
 ## Gray Code Counter - Verilog Implementation 
-The digital circuit takes clock, enable and reset as input. It generates an 8-bit gray code sequence at every positive clock edge. The port description of the gray code counter is shown in Table below. 
+The digital circuit takes clock, ctrl and reset as input. It operates as  8-bit up cpunter when ctrl=1 and as  8-bit down cpunter when ctrl=0. The port description of the Bidirectional counter is shown in Table below. 
 
 
 | PORT NAME | PORT TYPE | DESCRIPTION |
