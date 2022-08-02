@@ -14,6 +14,17 @@ Bidirectional counter has various applications
 - *Down Counter*
 - *Bidirectional Counter*
 
+## Gray Code Counter - Verilog Implementation 
+The digital circuit takes clock, enable and reset as input. It generates an 8-bit gray code sequence at every positive clock edge. The port description of the gray code counter is shown in Table below. 
+
+
+| PORT NAME | PORT TYPE | DESCRIPTION |
+|-----------|-----------|-------------|
+| clk       | input     | Clock Input |
+| enable | input | Enables the counter to count on positive clk edge |
+| reset | input | Resets the counter to 0 |
+| gray_count[7:0] | output | 8-bit gray code output |
+
 ## About iverilog 
 Icarus Verilog is an implementation of the Verilog hardware description language.
 ## About GTKWave
