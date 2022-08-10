@@ -1,7 +1,7 @@
 module iiitb_bidicntr(count,clk,ctrl,reset);
 	input clk,reset,ctrl;
 	output reg [3:0] count;
-	always@(posedge clk or posedge reset)
+	always@(posedge clk)
 		begin
 		if(reset) count<=0;
 		else if(ctrl) count<=count+1;
