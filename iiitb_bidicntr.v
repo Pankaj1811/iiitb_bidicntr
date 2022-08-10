@@ -4,8 +4,8 @@ module iiitb_bidicntr(count,clk,ctrl,reset);
 	always@(posedge clk or posedge reset)
 		begin
 		if(reset) count<=0;
-		else if(ctrl) count=count+1;
-		else count=count-1;
+		else if(ctrl) count<=count+1;
+		else count<=count-1;
 	end
 endmodule
 	
