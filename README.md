@@ -85,9 +85,6 @@ $   gtkwave updown.vcd
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 - Tejas B N, Postgraduate Student, International Institute of Information Technology, Bangalore  bntejas@gmail.com
 
-## Future Work
-- as the dffxtp behaviour is not mentioned in lib file so we are looking for the complete file and then proceed further.
-
 
 ## *References*
 [^1]: Varun Akula, Dr. Vishwani D. Agrawal, James J. Danaher. [Comparison of power consumption of 4-bit binary counters with various state encodings including gray and one-hot codes](https://www.eng.auburn.edu/~vagrawal/COURSE/E6270_Spr15/PROJECT/REPORTS/Varun%20Akula%20Project%20Report.pdf). Auburn University
