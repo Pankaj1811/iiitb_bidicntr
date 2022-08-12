@@ -52,6 +52,18 @@ $   iverilog iiitb_bidicntr.v iiitb_bidicntr_tb.v
 $   ./a.out
 $   gtkwave updown.vcd
 ```
+## Post synthesis simulation
+- Stats
+<img src="images/stats.png">
+
+- This is how layout is looking at first glance before proper placement
+
+<img src="images/layout.png">
+
+- GTKWAVE simulation
+
+<img src="images/synth_sim.png">
+
 ## Contributors
 
 - **Pankaj Agrawal**
