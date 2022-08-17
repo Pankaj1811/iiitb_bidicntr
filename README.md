@@ -58,19 +58,20 @@ The software used to run gate level synthesis is Yosys. Yosys is a framework for
 ```
 git clone https://github.com/YosysHQ/yosys.git
 make
-sudo make install make test
+sudo make install 
+make test
 ```
 
 The commands to run synthesis in yosys are given below. First create an yosys script `yosys_run.sh` and paste the below commands.
 ```
 read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-read_verilog iiitb_gc.v
-synth -top iiitb_gc	
+read_verilog iiitb_bidicntr.v
+synth -top iiitb_bidicntr	
 dfflibmap -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 clean
 flatten
-write_verilog -noattr iiitb_gc_synth.v
+write_verilog -noattr iiitb_bidicntr_synth.v
 stat
 show
 ```
