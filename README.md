@@ -52,6 +52,32 @@ $   iverilog iiitb_bidicntr.v iiitb_bidicntr_tb.v
 $   ./a.out
 $   gtkwave updown.vcd
 ```
+#  Synthesis
+The software used to run gate level synthesis is Yosys. Yosys is a framework for Verilog RTL synthesis. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the Yosys C++ code base. [^5]
+
+```
+git clone https://github.com/YosysHQ/yosys.git
+make
+sudo make install make test
+```
+
+The commands to run synthesis in yosys are given below. First create an yosys script `yosys_run.sh` and paste the below commands.
+```
+read_liberty -lib lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_verilog iiitb_gc.v
+synth -top iiitb_gc	
+dfflibmap -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+clean
+flatten
+write_verilog -noattr iiitb_gc_synth.v
+stat
+show
+```
+Then, open terminal in the folder iiitb_gc and type the below command.
+```
+yosys -s yosys_run.sh
+```
 ## Post synthesis simulation
 - Stats
 <img src="images/stats.png">
