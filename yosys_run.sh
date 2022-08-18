@@ -6,11 +6,10 @@ read_verilog iiitb_bidicntr.v
 synth -top iiitb_bidicntr
 
 # mapping to mycells.lib
-dfflibmap -liberty /home/pankaj/iiitb_bidicntr/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-abc -liberty /home/pankaj/iiitb_bidicntr/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+dfflibmap -liberty /home/pankaj/asic/iiitb_bidicntr/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+opt
+abc -liberty /home/pankaj/asic/iiitb_bidicntr/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 clean
 flatten
 # write synthesized design
-write_verilog iiitb_bidicntr_synth.v 
-stat # to show stats
-show #for the schematic
+write_verilog -noattr iiitb_bidicntr_synth.v
