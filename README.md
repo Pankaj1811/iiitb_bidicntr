@@ -26,9 +26,9 @@ The digital circuit takes clock, ctrl and reset as input. It operates as  8-bit 
 | count[7:0] | output | 8-bit counter output |
 
 ## About iverilog 
-Icarus Verilog is an implementation of the Verilog hardware description language.
+Icarus Verilog is an implementation of the Verilog hardware description language.[^1]
 ## About GTKWave
-GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing
+GTKWave is a fully featured GTK+ v1. 2 based wave viewer for Unix and Win32 which reads Ver Structural Verilog Compiler generated AET files as well as standard Verilog VCD/EVCD files and allows their viewing [^2]
 
 ### Installing iverilog and GTKWave
 
