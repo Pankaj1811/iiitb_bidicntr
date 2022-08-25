@@ -90,7 +90,7 @@ yosys -s yosys_run.sh
 
 - This is how layout is looking at first glance before proper placement
 
-<img src="images/layout.png">
+<img src="images/pic1.png">
 
 - GTKWAVE simulation
 
