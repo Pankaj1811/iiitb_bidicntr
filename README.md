@@ -86,7 +86,7 @@ yosys -s yosys_run.sh
 ```
 ## Post synthesis simulation
 - Stats
-<img src="images/stats1.png">
+<img src="images/stats11.png">
 
 - This is how layout is looking at first glance before proper placement
 
