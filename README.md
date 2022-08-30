@@ -149,6 +149,10 @@ $   sudo make install
 ```
 type **magic** terminal to check whether it installed succesfully or not. type **exit** to exit magic.
 
+## Placement
+<img src="images/magic1.png">
+<img src="images/magic2.png">
+<img src="images/magic3.png">
 ## Contributors
 
 - **Pankaj Agrawal**
