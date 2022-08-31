@@ -18,7 +18,7 @@
 [**Author**](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
 [**Reference**](https://github.com/Pankaj1811/iiitb_bidicntr#References)  
 [**Contributers**](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)  
-[**Acknowledgment**](https://github.com/Pankaj1811/iiitbbidicntr#Acknowledgements)  
+[**Acknowledgment**](https://github.com/Pankaj1811/iiitb_bidicntr#Acknowledgments)  
 [**Contact Information**](https://github.com/Pankaj1811/iiitb_bidicntr#Contact-Information)
 
 ## Description
