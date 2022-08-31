@@ -6,8 +6,8 @@
  [Yosys installation and Synthesis](https://github.com/Pankaj1811/iiitb_bidicntr#Synthesis)  
  [GLS Post-simulation results](https://github.com/Pankaj1811/iiitb_bidicntr#Post-synthesis-simulation-results)  
  [Openlane](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane)<br>
- [Magic](https://github.com/Pankaj1811/iiitb_bidicntr#Magic)
- 
+ [Magic](https://github.com/Pankaj1811/iiitb_bidicntr#Magic)<br>
+ [Openlane Results](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane-Results)
     
  [Author](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
  [Contributers](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)<br>
