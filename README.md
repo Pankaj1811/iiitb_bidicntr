@@ -16,10 +16,10 @@
  [Routing](https://github.com/drvasanthi/iiitb_cg#7-routing)  
     
 [**Author**](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
-[**Reference**](https://github.com/Pankaj1811/iiitb_bidicntr#References)  
-[**Contributers**](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)  
-[**Acknowledgment**](https://github.com/Pankaj1811/iiitb_bidicntr#Acknowledgments)  
+[**Contributers**](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)
+[**Acknowledgment**](https://github.com/Pankaj1811/iiitb_bidicntr#Acknowledgments)
 [**Contact Information**](https://github.com/Pankaj1811/iiitb_bidicntr#Contact-Information)
+[**Reference**](https://github.com/Pankaj1811/iiitb_bidicntr#References)  
 
 ## Description
 
