@@ -171,6 +171,7 @@ type **magic** terminal to check whether it installed succesfully or not. type *
 Openlane Flow Results
 
 ### Synthesis
+
 ### floorplan
 
 ### Placement
