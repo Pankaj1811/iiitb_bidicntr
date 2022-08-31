@@ -15,11 +15,11 @@
  [CTS](https://github.com/drvasanthi/iiitb_cg#6-clcok-tree-synthesis-cts)  
  [Routing](https://github.com/drvasanthi/iiitb_cg#7-routing)  
     
-[**Author**](https://github.com/Pankaj1811/iiitb_bidicntr#author)  
-[**Reference**](https://github.com/Pankaj1811/iiitb_bidicntr#references)  
-[**Contributers**](https://github.com/Pankaj1811/iiitb_bidicntr#contributors)  
-[**Acknowledgment**](https://github.com/Pankaj1811/iiitbbidicntr#acknowledgement)  
-[**Contact Information**](https://github.com/Pankaj1811/iiitb_bidicntr#contact-information)
+[**Author**](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
+[**Reference**](https://github.com/Pankaj1811/iiitb_bidicntr#References)  
+[**Contributers**](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)  
+[**Acknowledgment**](https://github.com/Pankaj1811/iiitbbidicntr#Acknowledgements)  
+[**Contact Information**](https://github.com/Pankaj1811/iiitb_bidicntr#Contact-Information)
 
 ## Description
 
@@ -177,6 +177,10 @@ Openlane Flow Results
 <img src="images/magic1.png">
 <img src="images/magic2.png">
 <img src="images/magic3.png">
+
+## Author
+
+- **Pankaj Agrawal**
 
 ## Contributors
 
