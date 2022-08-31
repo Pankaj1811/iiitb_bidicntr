@@ -5,21 +5,15 @@
  [RTL Functional Simulation](https://github.com/Pankaj1811/iiitb_bidicntr#Functional-simulation)  
  [Yosys installation and Synthesis](https://github.com/Pankaj1811/iiitb_bidicntr#Synthesis)  
  [GLS Post-simulation results](https://github.com/Pankaj1811/iiitb_bidicntr#Post-synthesis-simulation-results)  
- [Openlane](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane)
+ [Openlane](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane)<br>
  [Magic](https://github.com/Pankaj1811/iiitb_bidicntr#Magic)
  
- [To Build Inverter Standard Cell Design](https://github.com/drvasanthi/iiitb_cg#2-to-build-inverter-standard-cell-design)  
- [Synthesis](https://github.com/drvasanthi/iiitb_cg#3-synthesis)      
- [Floorplan](https://github.com/drvasanthi/iiitb_cg#4-floorplan)  
- [Placement](https://github.com/drvasanthi/iiitb_cg#5-placement)  
- [CTS](https://github.com/drvasanthi/iiitb_cg#6-clcok-tree-synthesis-cts)  
- [Routing](https://github.com/drvasanthi/iiitb_cg#7-routing)  
     
- [**Author**](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
- [**Contributers**](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)<br>
- [**Acknowledgment**](https://github.com/Pankaj1811/iiitb_bidicntr#Acknowledgments)
- [**Contact Information**](https://github.com/Pankaj1811/iiitb_bidicntr#Contact-Information)
- [**Reference**](https://github.com/Pankaj1811/iiitb_bidicntr#References)  
+ [Author](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
+ [Contributers](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)<br>
+ [Acknowledgment](https://github.com/Pankaj1811/iiitb_bidicntr#Acknowledgments)<br>
+ [Contact Information](https://github.com/Pankaj1811/iiitb_bidicntr#Contact-Information)<br>
+ [Reference](https://github.com/Pankaj1811/iiitb_bidicntr#References)  
 
 ## Description
 
@@ -168,11 +162,7 @@ $   sudo make install
 ```
 type **magic** terminal to check whether it installed succesfully or not. type **exit** to exit magic.
 
-Openlane Flow Results
-
-### Synthesis
-
-### floorplan
+## Openlane Results
 
 ### Placement
 <img src="images/magic1.png">
