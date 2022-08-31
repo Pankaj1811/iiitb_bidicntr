@@ -1,4 +1,25 @@
 # iiitb_bidicntr- Bidirectional Counter
+## TABLE OF CONTENT
+ [Description](https://github.com/Pankaj1811/iiitb_bidicntr#Description)  
+ [Icarus Verilog and GTKWave](https://github.com/Pankaj1811/iiitb_bidicntr#About-iverilog)  
+ [RTL Functional Simulation](https://github.com/Pankaj1811/iiitb_bidicntr#Functional-simulation)  
+ [Yosys installation and Synthesis](https://github.com/Pankaj1811/iiitb_bidicntr#Synthesis)  
+ [GLS Post-simulation results](https://github.com/Pankaj1811/iiitb_bidicntr#Post-synthesis-simulation-results)  
+ [Openlane](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane)
+ [Magic](https://github.com/Pankaj1811/iiitb_bidicntr#Magic)
+ 
+ [To Build Inverter Standard Cell Design](https://github.com/drvasanthi/iiitb_cg#2-to-build-inverter-standard-cell-design)  
+ [Synthesis](https://github.com/drvasanthi/iiitb_cg#3-synthesis)      
+ [Floorplan](https://github.com/drvasanthi/iiitb_cg#4-floorplan)  
+ [Placement](https://github.com/drvasanthi/iiitb_cg#5-placement)  
+ [CTS](https://github.com/drvasanthi/iiitb_cg#6-clcok-tree-synthesis-cts)  
+ [Routing](https://github.com/drvasanthi/iiitb_cg#7-routing)  
+    
+[**Author**](https://github.com/Pankaj1811/iiitb_bidicntr#author)  
+[**Reference**](https://github.com/Pankaj1811/iiitb_bidicntr#references)  
+[**Contributers**](https://github.com/Pankaj1811/iiitb_bidicntr#contributors)  
+[**Acknowledgment**](https://github.com/Pankaj1811/iiitbbidicntr#acknowledgement)  
+[**Contact Information**](https://github.com/Pankaj1811/iiitb_bidicntr#contact-information)
 
 ## Description
 
@@ -84,7 +105,7 @@ Then, open terminal in the folder iiitb_gc and type the below command.
 ```
 yosys -s yosys_run.sh
 ```
-## Post synthesis simulation
+## Post synthesis simulation results
 - Stats
 <img src="images/stats11.png">
 
@@ -96,13 +117,11 @@ yosys -s yosys_run.sh
 
 <img src="images/synth_sim.png">
 
-#  Layout
-
 ## Openlane
 OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen, CVC, SPEF-Extractor, CU-GR, Klayout and a number of custom scripts for design exploration and optimization. The flow performs full ASIC implementation steps from RTL all the way down to GDSII.
 
 more at https://github.com/The-OpenROAD-Project/OpenLane
-## Installation instructions 
+#### Installation instructions 
 ```
 $   apt install -y build-essential python3 python3-venv python3-pip
 ```
@@ -149,10 +168,16 @@ $   sudo make install
 ```
 type **magic** terminal to check whether it installed succesfully or not. type **exit** to exit magic.
 
-## Placement
+Openlane Flow Results
+
+### Synthesis
+### floorplan
+
+### Placement
 <img src="images/magic1.png">
 <img src="images/magic2.png">
 <img src="images/magic3.png">
+
 ## Contributors
 
 - **Pankaj Agrawal**
