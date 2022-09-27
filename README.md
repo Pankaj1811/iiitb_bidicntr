@@ -4,11 +4,11 @@
  [Icarus Verilog and GTKWave](https://github.com/Pankaj1811/iiitb_bidicntr#About-iverilog)  
  [RTL Functional Simulation](https://github.com/Pankaj1811/iiitb_bidicntr#Functional-simulation)  
  [Yosys installation and Synthesis](https://github.com/Pankaj1811/iiitb_bidicntr#Synthesis)  
- [GLS Post-simulation results](https://github.com/Pankaj1811/iiitb_bidicntr#Post-synthesis-simulation-results)  
+ [GLS Post-simulation results (stats)](https://github.com/Pankaj1811/iiitb_bidicntr#Post-synthesis-simulation-results)  
  [Openlane](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane)<br>
  [Magic](https://github.com/Pankaj1811/iiitb_bidicntr#Magic)<br>
- [Openlane Results](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane-Results)
-    
+ [Openlane Results](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane-Results)<br>
+ [Stats Power Performance(frequency) Area](https://github.com/Pankaj1811/iiitb_bidicntr#Stats)<br>
  [Author](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
  [Contributers](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)<br>
  [Acknowledgment](https://github.com/Pankaj1811/iiitb_bidicntr#Acknowledgments)<br>
@@ -168,6 +168,21 @@ type **magic** terminal to check whether it installed succesfully or not. type *
 <img src="images/magic1.png">
 <img src="images/magic2.png">
 <img src="images/magic3.png">
+
+## Stats,Power,Performance,Area(PPA)
+
+#### Stats
+Number of cells are as follows:<br>
+Total cells=<br>
+Number of Flip Flops=<br>
+Flip Flop to Standard Cell ratio=
+
+
+#### Power
+
+#### Perfomance
+
+#### Area
 
 ## Author
 
