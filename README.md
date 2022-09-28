@@ -8,7 +8,7 @@
  [Openlane](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane)<br>
  [Magic](https://github.com/Pankaj1811/iiitb_bidicntr#Magic)<br>
  [Openlane Results](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane-Results)<br>
- [Stats]https://github.com/Pankaj1811/iiitb_bidicntr#Stats) [Power] https://github.com/Pankaj1811/iiitb_bidicntr#Power)[Performance(frequency)] https://github.com/Pankaj1811/iiitb_bidicntr#Performance)[Area](https://github.com/Pankaj1811/iiitb_bidicntr#Area)<br>
+ [Stats Power Performance(frequency) Area](https://github.com/Pankaj1811/iiitb_bidicntr#Stats)<br>
  [Author](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
  [Contributers](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)<br>
  [Acknowledgment](https://github.com/Pankaj1811/iiitb_bidicntr#Acknowledgments)<br>
