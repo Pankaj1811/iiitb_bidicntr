@@ -8,6 +8,7 @@
  [Openlane](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane)<br>
  [Magic](https://github.com/Pankaj1811/iiitb_bidicntr#Magic)<br>
  [Openlane Results](https://github.com/Pankaj1811/iiitb_bidicntr#Openlane-Results)<br>
+ [Performance using OpenSta](https://github.com/Pankaj1811/iiitb_bidicntr#Performance-using-OpenSta)<br>
  [Stats Power Performance(frequency) Area](https://github.com/Pankaj1811/iiitb_bidicntr#Stats)<br>
  [Author](https://github.com/Pankaj1811/iiitb_bidicntr#Author)  
  [Contributers](https://github.com/Pankaj1811/iiitb_bidicntr#Contributors)<br>
@@ -168,6 +169,23 @@ type **magic** terminal to check whether it installed succesfully or not. type *
 <img src="images/magic1.png">
 <img src="images/magic2.png">
 <img src="images/magic3.png">
+
+## Performance using OpenSta
+```
+cd OpenLane
+sudo make mount
+sta
+read_liberty -max /home/pankaj/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v56.lib
+read_liberty -min /home/pankaj/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v56.lib
+read_verilog /home/pankaj/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/iiitb_bidicntr.v
+link_design iiitb_bidicntr
+read_sdc /home/pankaj/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/iiitb_bidicntr.sdc
+read_spef /home/pankaj/OpenLane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/iiitb_bidicntr.spef
+set_propagated_clock [all_clocks]
+report_checks
+report_checks -form _91_ -to _92_
+
+```
 
 ## Stats,Power,Performance,Area(PPA)
 
