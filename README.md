@@ -180,10 +180,19 @@ Flip Flop to Standard Cell ratio= 8/52 =0.1538<br>
 
 
 #### Power
+Power used by Sequential circuit=6.48 uW<br>
+Power used by Combinational circuit=14.3 uW<br>
+Total Power=20.8 uW <br>
+<img src="images/mt_power.png">
 
 #### Perfomance
+frequency=1/(65.11ns-51.04ns) =71.07Mhz<br>
+<img src="images/mt_performance.png">
 
 #### Area
+Area is calculated using box command in Magic.
+Calculated area is 14084.710 um^2.
+<img src="images/mt_area.png">
 
 ## Author
 
