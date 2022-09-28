@@ -186,8 +186,8 @@ Total Power=20.8 uW <br>
 <img src="images/mt_power.png">
 
 #### Perfomance
-frequency=1/(65.11ns-51.04ns) =71.07Mhz<br>
-<img src="images/mt_performance.png">
+frequency=1/(65.00ns-63.42ns) =632.91Mhz<br>
+<img src="images/mt_performance_new.png">
 
 #### Area
 Area is calculated using box command in Magic.
