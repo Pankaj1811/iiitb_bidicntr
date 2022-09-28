@@ -173,9 +173,10 @@ type **magic** terminal to check whether it installed succesfully or not. type *
 
 #### Stats
 Number of cells are as follows:<br>
-Total cells=<br>
-Number of Flip Flops=<br>
-Flip Flop to Standard Cell ratio=
+Total cells= 52<br>
+Number of Flip Flops= 8<br>
+Flip Flop to Standard Cell ratio= 8/52 =0.1538<br>
+<img src="images/mt_stats.png">
 
 
 #### Power
